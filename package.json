@@ -4,7 +4,8 @@
   "description": "begin tech bootcamp",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,9 @@
   },
   "homepage": "https://github.com/zhann1982/Begin-tech-bootcamp#readme",
   "dependencies": {
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "slugify": "^1.4.6",
     "uuid": "^8.3.2"
   }
 }
