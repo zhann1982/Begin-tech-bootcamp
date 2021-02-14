@@ -1,0 +1,27 @@
+{
+  "name": "begin-tech-bootcamp",
+  "version": "0.1.0",
+  "description": "begin tech bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhann1982/Begin-tech-bootcamp.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb"
+  ],
+  "author": "@Zhann1982",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhann1982/Begin-tech-bootcamp/issues"
+  },
+  "homepage": "https://github.com/zhann1982/Begin-tech-bootcamp#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
