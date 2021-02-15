@@ -7,7 +7,8 @@ const uuid = require('uuid');
 
 const replaceTemplate = require('./modules/replaceTemplate');
 
-const PORT = process.env.PORT || 8000, HOST = "127.0.0.1";
+const PORT = process.env.PORT || 8000, 
+      HOST = "127.0.0.1";
 
 
 //----------- SYNC -------------------------
@@ -78,6 +79,6 @@ const server = http.createServer((req, res)=>{
 });
 
 
-server.listen(PORT, HOST, ()=>{
+server.listen(PORT, ()=>{
     console.log(`Server ON: listening to port ${PORT}`);
 });
